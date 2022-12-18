@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;}
+
+body {
+    background: url("https://wallpaperaccess.com/full/1694244.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+
+    height: 100vh;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    z-index: 100000000;
+    background-color: #1f1f1f2f;
+    border-radius: 1rem;
+    padding: 1rem;
+    filter: drop-shadow(2px 2px 2px #ffffff);
+    box-shadow: 1px 1px #fffff0;
+    cursor: pointer;
+}
+
+.container:hover {
+    background-color: #2f2f2f1a;
+}
+
+
+
+h1 {
+ font-size: 3.2em;
+}
+
+.countdown {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.countdown span {
+    display: block;
+    font-size: 2rem;
+}
+
